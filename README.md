@@ -1,3 +1,3 @@
 # Olio-ohjelmointi
 
-## Tänne tulee Olio-ohjelmointi kurssin harjoituksia.
+Tänne tulee Olio-ohjelmointi kurssin harjoituksia.
