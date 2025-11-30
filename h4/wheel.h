@@ -4,20 +4,21 @@
 
 using namespace std;
 
+// Rengasta kuvaava luokka
 class Wheel {
 private:
     int size;
     string type;
 
 public:
-    Wheel();
-    Wheel(int size, string type);
+    Wheel(); // Oletusrengas
+    Wheel(int size, string type); // Rengas jolle annetaan koko ja tyyppi
 
-    int getSize() const;
-    string getType() const;
+    int getSize() const; // Palauttaa renkaan koon
+    string getType() const; // Palauttaa renkaan tyypin
 
-    void setSize(int size);
-    void setType(string type);
+    void setSize(int size); // Asettaa renkaan koon
+    void setType(string type); // Asettaa renkaan tyypin
 };
 
 #endif // WHEEL_H
