@@ -2,8 +2,6 @@
 #include "chef.h"
 #include "italianchef.h"
 
-using namespace std;
-
 int main() {
     // Luo Chef-olion pinossa
     Chef objChef("Gordon Ramsay");

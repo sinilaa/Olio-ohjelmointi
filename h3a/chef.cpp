@@ -1,6 +1,5 @@
 #include "chef.h"
 #include <iostream>
-using namespace std;
 
 // Konstruktori alustaa nimen ja tulostaa debugin
 Chef::Chef(string name) : name(name) {
